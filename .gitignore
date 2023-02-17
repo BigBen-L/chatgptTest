@@ -1,0 +1,5 @@
+# ENV VAR
+.env
+# Node artifact files
+node_modules/
+dist/
