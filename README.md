@@ -1,5 +1,6 @@
 # chatgptTest
 This repo is written by nodejs express and mongo. There are 4 sample api call available, include authentication middleware.
+Install mongodb
 To run repo demo:
 1. Run npm install
 2. Please rename .env.example to .env
