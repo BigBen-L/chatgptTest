@@ -9,7 +9,7 @@ describe('Routes', () => {
     before((done) => {
         server = app.listen(3001, () => {
             port = server.address().port;
-            mongoose.connect('mongodb://127.0.0.1/testdb', { useNewUrlParser: true } as ConnectOptions, (err) => {
+            mongoose.connect('mongodb://localhost/testdb', { useNewUrlParser: true } as ConnectOptions, (err) => {
                 if (err) {
                     console.error(err);
                     process.exit(1);
